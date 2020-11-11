@@ -38,9 +38,12 @@
 	letter-spacing: 2px;
 }
 
+.card-img-top{
+	transition: all 400ms;
+}
+
 .card-img-top:hover{
 	transform: scale(1.1);
-	transition: all 400ms;
 }
 
 .card-title{
@@ -62,6 +65,7 @@
 
 .btn{
 	font-size: calc(0.6em + 0.6vw);
+	transition: all 600ms;
 
 	&:hover{
 		transform: scale(1.05);
