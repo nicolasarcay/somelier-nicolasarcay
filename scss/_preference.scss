@@ -1,0 +1,187 @@
+.navbar {
+	height: 5rem;
+}
+
+.navbar-light .nav-link{
+	font-size: calc(1rem + 0.1vw);
+}
+
+.index-animation{
+	height: 50vw;
+	background-position: -200px top;
+	animation: backBanner 10s linear;
+	overflow: hidden;
+	margin-bottom: -10%;
+	background-size: auto;
+
+	h1{
+		display: block;
+		font-size: calc(2em + 0.9vw);
+		font-family: Georgia, Times, "Times New Roman", serif;
+		letter-spacing: 2px;
+		text-shadow: 2px 2px 1px $white;
+	}
+}
+
+@keyframes backBanner {
+	0% {
+		background-position: 0px top;
+	}
+	100% {
+		background-position: -200px top;
+	}	
+}
+
+.title-h2 h2 {
+	font-size: calc(1.2em + 1vw);
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	letter-spacing: 2px;
+}
+
+.card-img-top:hover{
+	transform: scale(1.1);
+	transition: all 400ms;
+}
+
+.card-title{
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-size: calc(0.9em + 0.9vw);
+	letter-spacing: 1px;
+}
+
+.service-title h2{
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-size: calc(1.4em + 0.8vw);
+	letter-spacing: 2px;
+	padding-bottom: 1.5vw;
+}
+.service_texto_parrafo{
+	padding-bottom: 50px;
+	font-size: calc(0.6em + 0.7vw);
+}
+
+.btn{
+	font-size: calc(0.6em + 0.6vw);
+
+	&:hover{
+		transform: scale(1.05);
+	}
+}
+
+.container-news .title-news h2{
+	padding-top: 13vw;
+	font-size: calc(1.2em + 1vw);
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	letter-spacing: 2px;
+}
+
+.form-news{
+	padding-bottom: 13vw;
+}
+
+.email-news{
+	border-radius: 25px;
+}
+
+.btn-news {
+	border-radius: 25px;
+}
+
+.info_contacto_datos {
+	font-size: calc(0.8em + 0.5vw);
+	line-height: 1.5;
+}
+
+.footer_form h3{
+	font-style: calc(1em + 0.7vw);
+}
+
+.footer_form .form-control{
+	padding: 15px;
+	border-radius: 25px;
+	border: 0;
+}
+
+.bg-portada{
+	height: 45vw;
+	background-position: -200px top;
+	overflow: hidden;
+	margin-bottom: -10%;
+
+	h1{
+		display: block;
+		font-size: calc(2em + 1vw);
+		font-family: Georgia, Times, "Times New Roman", serif;
+		letter-spacing: 2px;
+		text-shadow: 2px 2px 1px $white;
+	}
+}
+.nosotros-bg, 
+.contacto-bg{
+	background-position: center center;
+	h1 {
+		margin-top: 10%;
+	}
+}
+
+.experiencias-bg {
+	background-position: center center;
+	
+	h1{
+		margin-top: -10%;
+	}
+}
+
+.customer_background{
+	height: 45vw;
+	background-size: cover;
+	margin-bottom: -9%;
+
+	h2 {
+		font-size: calc(1.5rem + 1vw);
+		font-family: Tahoma, Verdana, Segoe, sans-serif;
+		text-shadow: 2px 2px 1px $white;
+	}
+}
+
+.separador-seccion{
+	padding-top: 1.5rem;
+}
+
+.title-h2-region h2{
+	font-size: calc(1.2em + 1vw);
+	font-family: $font-theme-title;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 1px $white;
+}
+
+.contacto-titulo{
+	font-size: calc(1.2em + 1vw);
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	letter-spacing: 2px;
+}
+
+.carousel-inner{
+	height: auto;
+	width:100% !important;
+    max-width: 600px !important;
+	background-size:cover;
+	background-position: center center;
+}
+
+.separador-bottom{
+	margin-bottom: -8%;
+}
+
+.separador-both{
+	margin-bottom: -4.5%;
+	margin-top: -4%;
+}
+
+.map {
+    -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+            filter: grayscale(100%);
+}

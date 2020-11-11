@@ -1,0 +1,22 @@
+@each $region in lujan, maipu, valle, nosotros, mendoza, experiencias, index, customer, customer-index, contacto {
+
+	.#{$region}-bg  {
+		background-image: url('../imagenes/#{$region}-bg.jpg.webp');
+	}
+}
+$redes: (
+	twitter: #55acee,
+	facebook: #3a5795,
+	instagram: #DD2A7B,
+	linkedin: #0e76a8
+);
+
+@each $red, $color in $redes {
+
+	.#{$red} {
+		color: $color;
+		width: 39px;
+		height: 39px;
+		background-color: $white;
+	}
+}
