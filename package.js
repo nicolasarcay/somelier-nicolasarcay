@@ -1,10 +1,9 @@
-// package metadata file for Meteor.js
 
 Package.describe({
-  name: 'twbs:bootstrap', // https://atmospherejs.com/twbs/bootstrap
-  summary: 'The most popular front-end framework for developing responsive, mobile first projects on the web.',
+  name: 'Somelier - Agencia de turismo en Mendoza', 
+  summary: 'Somos una agencia de turismo de Mendoza. Especializada en Tours Premium por Lujan de Cuyo, Maipu y el Valle Uco. Experiencias privadas y grupales.',
   version: '4.5.3',
-  git: 'https://github.com/twbs/bootstrap.git'
+  git: 'https://github.com/nicolasarcay/somelier-nicolasarcay/'
 });
 
 Package.onUse(function (api) {
