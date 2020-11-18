@@ -189,3 +189,14 @@
          -o-filter: grayscale(100%);
             filter: grayscale(100%);
 }
+.whatsapp{
+	color: $whatsapp;
+}
+.boton__whatsapp{
+	bottom: 2vw;
+	text-align: right; 
+	right: 2vw;
+	&:hover{
+		color: $green;
+	}
+}

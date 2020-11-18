@@ -10152,4 +10152,17 @@ h3 {
   filter: grayscale(100%);
 }
 
+.whatsapp {
+  color: #00BB2d;
+}
+
+.boton__whatsapp {
+  bottom: 2vw;
+  text-align: right;
+  right: 2vw;
+}
+.boton__whatsapp:hover {
+  color: #546122;
+}
+
 /*# sourceMappingURL=style-bootstrap.css.map */
