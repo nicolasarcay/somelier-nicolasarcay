@@ -191,12 +191,10 @@
 }
 .whatsapp{
 	color: $whatsapp;
+	text-shadow:3px 6px $black;
 }
 .boton__whatsapp{
 	bottom: 2vw;
 	text-align: right; 
 	right: 2vw;
-	&:hover{
-		color: $green;
-	}
 }
