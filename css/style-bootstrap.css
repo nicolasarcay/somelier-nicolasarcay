@@ -10024,7 +10024,7 @@ h3 {
 
 .service_texto_parrafo {
   padding-bottom: 50px;
-  font-size: calc(0.6em + 0.7vw);
+  font-size: calc(1rem + 0.4vw);
 }
 
 .btn {
@@ -10167,8 +10167,8 @@ h3 {
 
 .boton__whatsapp {
   bottom: 2vw;
-  text-align: right;
   right: 2vw;
+  left: auto;
 }
 
 /*# sourceMappingURL=style-bootstrap.css.map */
