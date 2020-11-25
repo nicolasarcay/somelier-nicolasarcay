@@ -10171,4 +10171,8 @@ h3 {
   left: auto;
 }
 
+.dropdown-menu {
+  width: 20rem;
+}
+
 /*# sourceMappingURL=style-bootstrap.css.map */
